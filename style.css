@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Lobster";
+  src: url("fonts/Lobster-Regular.ttf");
+}
+@font-face {
+  font-family: "ArchitectsDaughter";
+  src: url("fonts/ArchitectsDaughter.ttf");
+}
+
+body{
+	background-color:rgb(39, 78, 53);
+	color:antiquewhite;
+	font-size: 130%;
+	font-family: "ArchitectsDaughter", cursive;
+			
+}
+
+.container{
+	background-color:rgba(255,255,255, 0.25);
+	width: 90%;
+	max-width: 960px;
+	margin: 0 auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	border: solid 1px antiquewhite;
+	border-radius: 6px;
+	padding: 1em;
+	box-shadow: 6px 6px 12px;
+	padding-left: 2em;
+}
+
+
+main{
+	margin-bottom: 2em;
+	
+		
+}
+
+h1{
+	text-align: center;
+	color: coral;
+	text-transform: capitalize;
+	font-family: "Lobster", cursive;
+	text-shadow: 6px 6px 10px #222;
+	
+}
+
+ul{
+	list-style: none;
+}
+
+ul.encabezadoIzda{
+	text-align: right;
+}
+
+ul.encabezadoDcha{
+	text-align: left;
+	text-indent: 1em;
+}
+
+p{
+	text-indent: 3em;
+	line-height: 1.4;
+	text-align: justify;
+}
+.derecha{
+	text-align: right;
+	font-style: italic;
+	font-variant: small-caps;
+}
+
+.iconos{
+	display: inline-block;
+	float: right;
+}
+
+a:visited{
+	color:antiquewhite;
+}
+
+a:hover{
+	color: coral;
+}
+
+a:active{
+	color:antiquewhite;
+}
