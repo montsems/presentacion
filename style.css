@@ -72,6 +72,7 @@ p{
 .iconos{
 	display: inline-block;
 	float: right;
+	font-size: 160%;
 }
 
 a:visited{
